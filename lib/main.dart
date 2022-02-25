@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:my_project/otp.dart';
 import 'package:my_project/profile_screen.dart';
+import 'package:my_project/user_home_screen.dart';
 
 import 'new.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Color(0xFFF59c16),
         primarySwatch: Colors.blue,
       ),
-      home: LoginSignup(),
+      home: UserHomeScreen(),
     );
   }
 }
